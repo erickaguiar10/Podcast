@@ -176,7 +176,7 @@ void Mostrar(List lista) {
       Episode * epCurr = lista->curr->episodio;
 
       if(ep->numeroep == epCurr->numeroep && ep->podcast.idPodcast == epCurr->podcast.idPodcast) {
-      printf("\n Episódio número: %d - %s, do podcast %d - %s, it's playing now\n", ep->numeroep, ep->nomeep, ep->podcast.idPodcast, ep->podcast.nomepd);
+      printf("\n Episódio número: %d - %s, do podcast %d - %s, está tocando\n", ep->numeroep, ep->nomeep, ep->podcast.idPodcast, ep->podcast.nomepd);
       }
       else {
       printf("\n Episódio número: %d - %s, do podcast %d - %s\n", ep->numeroep, ep->nomeep, ep->podcast.idPodcast, ep->podcast.nomepd);

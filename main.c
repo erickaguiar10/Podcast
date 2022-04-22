@@ -12,7 +12,7 @@ int main(void){
   List lista = Iniciar();
 
  do{
-    printf("\n\n Opções:\n\n 0 - Sair\n 1 - Tocar\n 2 - Próximo \n 3 - Adiconar\n 4 - Shuffe\n 5 - Remover\n 6 - Mostrar episódios\n 7 - Mostrar Podcasts\n\n ");
+    printf("\n\n Opções:\n\n 0 - Sair\n 1 - Tocar\n 2 - Próximo \n 3 - Adiconar\n 4 - Shuffe\n 5 - Remover\n 6 - Mostrar Podcasts\n\n ");
     
     scanf("%d", &option);
   switch(option){
@@ -39,7 +39,7 @@ int main(void){
     //Shuffle
     case 4: 
       if (shuffle){
-        printf("\Shuffle off\n");
+        printf("\nShuffle off\n");
         shuffle = false;
       }
       else {
